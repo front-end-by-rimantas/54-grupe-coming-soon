@@ -85,18 +85,3 @@ footer a:hover {
     display: none;
   }
 }
-
-.hero > div {
-  border: 5px solid red;
-  position: relative;
-}
-
-.red {
-  width: 200px;
-  height: 100px;
-  background-color: red;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) skewX(-45deg) rotate(-15deg);
-}
