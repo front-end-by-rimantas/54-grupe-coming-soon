@@ -10,8 +10,26 @@
 @import '../components/progress-bar.css';
 @import '../components/mouse.css';
 @import '../components/socials.css';
+@import '../components/form.css';
 
 /* custom */
+
+.back-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: #ec1d61;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow: 0 0.2rem 0.4rem #0006;
+  position: absolute;
+  top: -2rem;
+  right: -1rem;
+}
 
 .footer {
   padding-top: 0;

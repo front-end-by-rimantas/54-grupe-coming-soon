@@ -79,6 +79,41 @@
                 <div class="column right-column">
                     <h2>Have any question?</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident mollitia, quasi eum aut id voluptatum earum molestias unde? Quia facilis delectus suscipit obcaecati? Quas sequi cum cupiditate maiores tempora laudantium.</p>
+
+                    <form action="/api" method="post">
+                        <div>
+                            <input id="user_role" type="text" value="buyer" name="role" hidden>
+                        </div>
+                        <div>
+                            <label for="id">User id</label>
+                            <input id="id" type="text" value="5254516258456" name="id" readonly>
+                        </div>
+                        <div>
+                            <label for="name">Name</label>
+                            <input id="name" type="text" value="Kulverstukas" name="name" autocomplete="name" placeholder="Vardas">
+                        </div>
+                        <div>
+                            <label for="surname">Surname</label>
+                            <input id="surname" type="text" value="Kulverstukas" name="surname" autocomplete="family-name">
+                        </div>
+                        <div>
+                            <label for="username">Username</label>
+                            <input id="username" type="text" value="Kulverstukas" name="username" autocomplete="username">
+                        </div>
+                        <div>
+                            <label for="email">Your email</label>
+                            <input id="email" type="email" name="email" value="" autocomplete="email" autofocus>
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <input id="password" type="password" name="password" value="" autocomplete="new-password">
+                            <button type="button">akis</button>
+                        </div>
+                        <div>
+                            <button type="reset">Reset</button>
+                            <button type="submit">Register</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
@@ -95,6 +130,8 @@
                 <a class="fa fa-instagram" href="#" target="_blank"></a>
                 <a class="fa fa-rss" href="#" target="_blank"></a>
             </div>
+
+            <a href="#" class="back-to-top fa fa-angle-up"></a>
         </div>
         <div class="row-short">
             <img class="logo" src="./img/logo-white.png" alt="Matrox logo">

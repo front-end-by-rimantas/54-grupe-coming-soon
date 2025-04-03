@@ -11,6 +11,7 @@
   justify-content: space-between;
   row-gap: 4rem;
   width: 62rem;
+  position: relative;
 }
 .container > .row-short {
   display: flex;
